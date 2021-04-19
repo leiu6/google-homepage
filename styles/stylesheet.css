@@ -56,8 +56,8 @@ header .right img{
 header .right svg{
     color: #5f6368;
     fill: currentColor;
-    height: 32px;
-    width: 32px;
+    height: 25px;
+    width: 25px;
     vertical-align: middle;
 }
 header a {
@@ -146,6 +146,11 @@ main .inner form #search-box {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
+/*hover behavior*/
+main .inner form #search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
 main .inner form #search-box .left {
     height: 46px;
     width: 35px;
@@ -194,7 +199,14 @@ main .inner form #search-box .right input[type='search']:active {
     border: 1px solid #f8f9fa;
     display: inline;
 }
-
+#btn-box button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+}
+#btn-box button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
 /* arrangement */
 #btn-box {
     text-align: center;
