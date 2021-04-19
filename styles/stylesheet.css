@@ -62,3 +62,52 @@ header a:hover {
     color: #222;
     text-decoration: underline;
 }
+
+/* commence footer code */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 46px;
+    background-color: #f2f2f2;
+}
+footer .left {
+    width: 50%;
+    height: 46px;
+    float: left;
+}
+footer .right {
+    width: 50%;
+    height: 46px;
+    float: right;
+}
+footer ul {
+    margin: 0;
+    line-height: 46px;
+    padding: 0;
+}
+footer ul li {
+    display: block;
+}
+footer .left ul li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+footer .right ul li {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+footer a {
+    color: #70757a;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
