@@ -126,6 +126,7 @@ main {
 main .inner {
     width: 582px;
     height: 230px;
+    margin-top: 30%; /* hackey workaround. Will fix later */
 }
 main .inner #logo-box {
     width: 272px;
@@ -136,6 +137,7 @@ main .inner #logo-box {
 main .inner form {
     height: 138px;
     width: 582px;
+    margin-top: 30px;
 }
 
 main .inner form #search-box {
@@ -176,4 +178,26 @@ main .inner form #search-box .right input[type='search']:focus {
 }
 main .inner form #search-box .right input[type='search']:active {
     outline-width: 0;
+}
+
+/* button code */
+
+/* basic styling */
+#btn-box button {
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    height: 34px;
+    padding: 0 16px;
+    line-height: 27px;
+    border: 1px solid #f8f9fa;
+    display: inline;
+}
+
+/* arrangement */
+#btn-box {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
 }
