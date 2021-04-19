@@ -5,6 +5,12 @@ body {
     font-size: 14px;
     margin: 0;
 }
+/* boilerplate to make buttons stylable */
+button, input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 /* commence header code */
 header {
     width: auto;
@@ -110,4 +116,64 @@ footer a {
 footer a:hover {
     color: #70757a;
     text-decoration: underline;
+}
+
+/* commence search area code */
+main {
+    width: 582px;
+    margin: auto;
+}
+main .inner {
+    width: 582px;
+    height: 230px;
+}
+main .inner #logo-box {
+    width: 272px;
+    height: 92px;
+    margin: auto;
+}
+
+main .inner form {
+    height: 138px;
+    width: 582px;
+}
+
+main .inner form #search-box {
+    width: 582px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+main .inner form #search-box .left {
+    height: 46px;
+    width: 35px;
+    float: left;
+    line-height: 46px;
+}
+main .inner form #search-box .left svg{
+    color: #9aa0a6;
+    fill: currentColor;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 13px;
+}
+main .inner form #search-box .right {
+    height: 46px;
+    width: 547px;
+    float: right;
+}
+main .inner form #search-box .right input[type='search'] {
+    height: 46px;
+    width: 532px;
+    border: 0;
+    font-size: 16px;
+    background: transparent;
+}
+main .inner form #search-box .right input[type='search']:focus {
+    border: 0;
+    outline-width: 0;
+}
+main .inner form #search-box .right input[type='search']:active {
+    outline-width: 0;
 }
