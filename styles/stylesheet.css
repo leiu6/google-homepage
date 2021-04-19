@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    color: #222;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+/* commence header code */
+header {
+    width: auto;
+    height: 60px;
+}
+header ul {
+    margin: 0;
+    line-height: 60px;
+    padding: 0;
+}
+header ul li {
+    display: block;
+}
+header .left{
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+header .left ul li{
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+header .right {
+    height: 60px;
+    width: 50%;
+    float: right;
+}
+header .right ul li{
+    float: right;
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 5px;
+    text-align: center;
+}
+header .right img{
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    border-radius: 16px;
+}
+header .right svg{
+    color: #5f6368;
+    fill: currentColor;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+}
+header a {
+    color: #222;
+    text-decoration: none;
+}
+header a:hover {
+    color: #222;
+    text-decoration: underline;
+}
